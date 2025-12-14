@@ -6,4 +6,5 @@ urlpatterns = [
     # API endpoints
     path('account/', include('accounts.urls')),
     path('pitches/', include('pitches.urls')),
+    path('bookings/',include('booking.urls')),
 ]
